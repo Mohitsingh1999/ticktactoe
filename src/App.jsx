@@ -1,9 +1,10 @@
 import React from 'react';
 import Board from './Components/Board.jsx';
+import './styles/root.scss';
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <h1>TICK TAC TOE</h1>
       <Board />
     </div>
